@@ -1,3 +1,4 @@
+/*index  */
 .navbar{
     background-color:#3c1a53f6;
     color:#e9c46a;
@@ -19,21 +20,15 @@
     background-color:#3c1a53f6;
     padding: 2px;
 }
-h2{
-    color:#3c1a53f6;
-
-}
 ul{
     list-style-type: none;
     font-size: 1.5em;
 }
 h2{
-    font-weight: bold;
-    font-size: 2rem;
+    /*font-weight: bold;
+    font-size: 2rem;*/
     margin: 10px;
-    color:#3c1a53f6;
     padding-left: 45px;
-
 }
 .list ul{
     font-size: 2em;
@@ -45,7 +40,7 @@ h2{
     padding: 16px;
     text-decoration: none;
 }
-/*,.other,.service_list*/
+/*Services page */
 .serve
 {
     margin-top: 45px;
@@ -57,14 +52,13 @@ h2{
     border-radius: 10px;
     border:solid 1px;
     margin-top: 50px;
-
 }
 
 .fa-sharp{
     width:1px;
     height: 1px;
     padding: 10px;
-    margin:20px;
+    margin:15px;
     color:#e9c46a;
 }
 .btn_icon
@@ -72,22 +66,45 @@ h2{
     margin:10px;
 }
 .para{
-    color:#3c1a53f6;
-
+    color:#600f96f6;
+    text-align: center;
 }
-#contact{
-    display:flex;
+.h2_us,.heading_cont{
+    color:#600f96f6;
+}
+.us{
+    float:right;
+   }
+
+   /*Contact */
+   
+.contact{
     padding: 20px;
     margin-right: 40px;
-}
-.contact_info{
+    background-image: url(./images/cont.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
+  
+  .h2_co
+  {
+    color:#600f96f6;
+    margin-left: 55%;
+
+  }
+.contact-info{
     border:1px solid;
     border-radius: 10px;
-    margin-left: 100px;
-    margin-bottom: 80px;
-    width:600px;
     margin-top: 40px;
-
+    width:500px;
+    height: 500px;
+    margin-left: 60%;
+    margin-bottom: 50px;
+}
+.email{
+    font-size: 20px;
+    padding-left:60%;
+    width:500px;
 }
 .address-1line,
 .address-2line{
@@ -97,23 +114,20 @@ p{
     font-size: 1.5em;
     margin:20px;
 }
-.email{
-    line-height: 50px;
-    font-size: 25px;
-    padding-left: 100px;
-    width:700px;
-    margin-top: 50px;
 
+
+
+.mailimage{
+    border-radius: 15px;
+    margin-right:40px;
+    width:600px;
 }
 .frm{
     border: 1px solid;
     padding-left: 50px;
     margin-bottom: 100px;
     border-radius: 10px;
-}
-.heading_cont
-{
-    margin-top: 50px;
+    width:600px;
 }
 .btn{
     background-color:#3c1a53f6;
