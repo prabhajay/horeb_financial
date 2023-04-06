@@ -1,0 +1,45 @@
+</div>   
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automatic Year Update</title>
+	<script>
+		// Get the current year
+		const year = new Date().getFullYear();
+
+		// Update the year in the HTML
+		window.addEventListener('DOMContentLoaded', () => {
+			const yearElem = document.querySelector('.year');
+			yearElem.textContent = year;
+		});
+	</script>
+</head>
+<body>
+	<p>&copy; Example Website <span class="year"></span></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>Welcome to my Example Page</h1>
+	</header>
+
+	<main>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ligula ac massa tristique tristique. Maecenas vitae risus euismod, tincidunt sapien id, congue dolor. Fusce vel lectus eu odio consectetur tincidunt. Nulla facilisi. Duis sit amet aliquet leo. Fusce sit amet enim vel sem ultricies euismod. In hac habitasse platea dictumst.</p>
+	</main>
+
+	<footer>
+		<script>
+			const year1 = new Date().getFullYear();
+			document.write("Copyright © Example Page " + year1);
+		</script>
+	</footer>
+</body>
+</html>

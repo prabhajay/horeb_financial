@@ -75,15 +75,30 @@ h2{
 .us{
     float:right;
    }
-
+  
+/*footer*/
+footer {
+    background-color:#3c1a53f6;
+    color: #e9c46a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
    /*Contact */
    
 .contact{
     padding: 20px;
     margin-right: 40px;
     background-image: url(./images/cont.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   
   .h2_co
@@ -114,9 +129,6 @@ p{
     font-size: 1.5em;
     margin:20px;
 }
-
-
-
 .mailimage{
     border-radius: 15px;
     margin-right:40px;
@@ -155,6 +167,7 @@ p{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
 /*
 @media screen and (max-width: 800px) {
     body {
